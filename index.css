@@ -11,13 +11,30 @@
 
 }
 
+#lua{
+   position: absolute;
+   width: 530px;
+   height: 440px;
+   z-index: 998;
+   top: -10px;
+   left: 400px;
+   opacity: 0.3;
+   animation: luaSubida 6s;
+   animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  
+
+}
+
 #casal{
    position: absolute;
-   width: 500px;
+   width: 600px;
    height: 300px;
-   z-index: 998;
-   top: 30px;
-   left: 400px;
+   z-index: 997;
+   top: 50px;
+   left: 365px;
+   
+   
 }
 
 #dupla-avatar{
@@ -95,6 +112,12 @@
 }
 
 
-@keyframes avatarSubida {
-   
+@keyframes luaSubida {
+   from{
+      opacity: 0;
+   }
+   to{
+      opacity: 0.3;
+      
+   }
 }
