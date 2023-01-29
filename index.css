@@ -22,7 +22,6 @@
   animation: luaAparecer 3s;
   animation-iteration-count: 1;
   animation-delay: 2s;
-  /* display: none; */
 }
 
 #casal {
@@ -91,7 +90,6 @@
 
 @keyframes luaAparecer {
   from {
-   display: none;
     opacity: 0;
   }
   to {
