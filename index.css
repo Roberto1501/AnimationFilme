@@ -3,12 +3,12 @@
   width: 600px;
   height: 180px;
   z-index: 999;
-  top: 580px;
+  top: 480px;
   left: -610px;
-  animation: logoAparecer 6s;
+  animation: logoAparecer 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 7s;
+  animation-delay: 5s;
 }
 
 #passaro {
@@ -21,7 +21,7 @@
   animation: monsterMovement 10s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 19s;
+  animation-delay: 9s;
 }
 
 #lua {
@@ -128,13 +128,13 @@
 @keyframes logoAparecer {
 
    from{
-      top: 580px;
+      top: 480px;
       left: -610px;
    }
 
    to {
-      top: 580px;
-      right: 470px;
+      top: 480px;
+      left: 440px;
    }
   
 }
