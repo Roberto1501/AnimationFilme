@@ -1,8 +1,21 @@
+#logoAvatar {
+  position: absolute;
+  width: 600px;
+  height: 180px;
+  z-index: 999;
+  top: 580px;
+  right: 470px;
+  animation: logoAparecer 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
 #passaro {
   position: absolute;
   width: 150px;
   height: 150px;
-  z-index: 999;
+  z-index: 998;
   top: -160px;
   right: 50px;
   animation: monsterMovement 10s;
@@ -15,7 +28,7 @@
   position: absolute;
   width: 600px;
   height: 440px;
-  z-index: 998;
+  z-index: 997;
   top: 30px;
   left: 450px;
   opacity: 0.3;
@@ -28,13 +41,13 @@
   position: absolute;
   width: 570px;
   height: 360px;
-  z-index: 997;
+  z-index: 996;
   top: 68px;
   left: 475px;
   opacity: 0;
   animation: casalAparecer 3s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 4s;
 }
 
@@ -97,18 +110,16 @@
   }
 }
 
-
 @keyframes casalAparecer {
-0% {
-   opacity: 0;
-}
+  0% {
+    opacity: 0;
+  }
 
-50% {
-   opacity: 0.5
-}
+  50% {
+    opacity: 0.5;
+  }
 
-100%{
-   opacity: 1;
-}
-
+  100% {
+    opacity: 1;
+  }
 }
