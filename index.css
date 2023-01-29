@@ -4,11 +4,11 @@
   height: 180px;
   z-index: 999;
   top: 580px;
-  right: 470px;
-  animation: logoAparecer 10s;
+  left: -610px;
+  animation: logoAparecer 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 5s;
+  animation-delay: 7s;
 }
 
 #passaro {
@@ -21,7 +21,7 @@
   animation: monsterMovement 10s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 7s;
+  animation-delay: 19s;
 }
 
 #lua {
@@ -31,9 +31,10 @@
   z-index: 997;
   top: 30px;
   left: 450px;
-  opacity: 0.3;
+  opacity: 0;
   animation: luaAparecer 3s;
   animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   animation-delay: 2s;
 }
 
@@ -123,3 +124,19 @@
     opacity: 1;
   }
 }
+
+@keyframes logoAparecer {
+
+   from{
+      top: 580px;
+      left: -610px;
+   }
+
+   to {
+      top: 580px;
+      right: 470px;
+   }
+  
+}
+
+
