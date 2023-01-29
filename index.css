@@ -11,6 +11,19 @@
   animation-delay: 5s;
 }
 
+#passaro2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: 998;
+  top: 200px;
+  left: -160px;
+  animation: monsterMovement2 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 19s;
+}
+
 #passaro {
   position: absolute;
   width: 150px;
@@ -126,17 +139,36 @@
 }
 
 @keyframes logoAparecer {
+  from {
+    top: 480px;
+    left: -610px;
+  }
 
-   from{
-      top: 480px;
-      left: -610px;
-   }
-
-   to {
-      top: 480px;
-      left: 440px;
-   }
-  
+  to {
+    top: 480px;
+    left: 440px;
+  }
 }
 
+@keyframes monsterMovement2 {
+  0% {
+    top: 200px;
+    left: -160px;
+  }
+  33% {
+    top: 100px;
+    left: 160px;
+    transform: rotate(60deg);
+  }
 
+  66% {
+   top: 280px;
+   left: 320px;
+   transform: rotate(60deg);
+  }
+
+  100% {
+   top: 360px;
+   left: 500px;
+  }
+}
