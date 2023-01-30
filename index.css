@@ -40,7 +40,7 @@
 #lua {
   position: absolute;
   width: 600px;
-  height: 440px;
+  height: 470px;
   z-index: 997;
   top: 30px;
   left: 450px;
@@ -56,13 +56,13 @@
   width: 570px;
   height: 360px;
   z-index: 996;
-  top: 68px;
+  top: 78px;
   left: 475px;
   opacity: 0;
   animation: casalAparecer 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
 
 #avata2 {
